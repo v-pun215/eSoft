@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>MicroS Search</title>
+<body>
+<style>
+body {
+  background-image: url('back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<img src="microbot_logo.png" alt="MicroBot" width = 200 height = 70>
+<center>
+<img src="mlogo.png" alt="MicroBot" width = 200 height = 200>
+<form action="https://www.google.com/search">
+  <input style="font-size:30px;" name='q' type="search" id = 'Search Box'/>  <img src='speech.png' onclick='record()'width = 30 height = 30/><p>
+  <input type = "submit" value = "MicroS Search"/>
+</form>
+
+<script>
+  function record() {
+      var recognition = new webkitSpeechRecognition();
+      recognition.lang = "en-US";
+
+      recognition.onresult = function(event) {
+          // console.log(event);
+          document.getElementById('Search Box').value = event.results[0][0].transcript;
+      }
+      recognition.start();
+
+  }
+</script>
+</center>
+</body>
+</html>

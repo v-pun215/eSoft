@@ -152,15 +152,39 @@ hr {
 .dropdown:hover .dropbtn {background-color: gray;}
 </style>
 </head>
-
 <div class="dropdown">
-<video width="320" height="240" controls poster="https://earthsoft.netlify.app/DB559DAB-D473-45E5-BF67-5627E9681A63.png">
+  <button onclick="myFunction()" class="dropbtn">Watch the event <i class="fa fa-play-circle-o" aria-hidden="true"></i></button>
+  <div id="myDropdown" class="dropdown-content">
+  <video width="320" height="240" controls poster="https://earthsoft.netlify.app/DB559DAB-D473-45E5-BF67-5627E9681A63.png">
       <source src="" type=video/ogg>
       <source src="" type=video/mp4>
-</video>
-  
- <p>
+  </video>  
+  </div>
 </div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
 <div style="background-color:white;">
 <h1> Recent eSoft Events </h1>
 <p>

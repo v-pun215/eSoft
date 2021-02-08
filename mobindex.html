@@ -102,10 +102,12 @@ body {
 <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
+  document.getElementById("icon").innerHTML = '<i class="fas fa-times"></i>';
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+    document.getElementById("icon").innerHTML = '<i class="fa fa-bars"></i>';
   }
 }
 </script>

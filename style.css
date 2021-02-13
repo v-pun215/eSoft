@@ -17,6 +17,25 @@ h3 {
 h2.w {
   color: white;
 }
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+a:hover {
+  text-decoration: underline; 
+  color:dodgerblue;
+}
+
+a:visited {
+  text-decoration: none;
+  color:dodgerblue;
+}
+
+a:active { 
+  text-decoration: underline;
+  color:dodgerblue;
+}
 .button {
   backdrop-filter: blur(6px);
   border-radius: 15px;

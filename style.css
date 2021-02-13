@@ -13,11 +13,12 @@ h1.w {
   color: white;
   font-size: 40px;
 }
-h3 {
-  color: rgb(255,255,255);opacity: 0.57;
+h2 {
+  font-weight: 100;
 }
 h2.w {
   color: white;
+  font-weight: 100;
 }
 a {
   text-decoration: none;

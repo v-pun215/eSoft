@@ -54,6 +54,11 @@ body{
 }
 
 nav {
+    position: sticky;
+    position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -o-sticky;
+	position: -ms-sticky;
     margin: 0;
     overflow: hidden;
     background: #333333;

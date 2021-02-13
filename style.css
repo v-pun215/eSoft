@@ -2,6 +2,9 @@ html {
     background: #fafafa;
     font-family:  Roboto, sans-serif;
 }
+.w {
+  color:white;
+}
 h1 {
   color: black;
 }

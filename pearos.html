@@ -55,3 +55,11 @@
   background-size: cover; width:100%; height:500px;">
     <h1 style="color:white;">Other PearOS Versions</h1>
     <a href="p9.html">PearOS 9 El Capitan <i class="fa fa-angle-right"></i> </a><a href="psn.html">PearOS 7 Snow Leopard <i class="fa fa-angle-right"></i> </a>
+    <script>
+        const navIcon = document.querySelector(".nav-icon");
+        const nav = document.querySelector("nav");
+
+        navIcon.onclick = function () {
+            nav.classList.toggle('show');
+        }
+    </script>

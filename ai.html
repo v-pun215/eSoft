@@ -52,5 +52,13 @@
   <a style="font-size:20px;" href="https://eassistant.netlify.app/">Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i> </a><p>
 <p>
 </div>
+    <script>
+        const navIcon = document.querySelector(".nav-icon");
+        const nav = document.querySelector("nav");
+
+        navIcon.onclick = function () {
+            nav.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>

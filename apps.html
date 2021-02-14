@@ -63,5 +63,13 @@
   <a style="font-size:20px" href="https://etext.netlify.app/">eText <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
   <p>
 </div>
+        <script>
+        const navIcon = document.querySelector(".nav-icon");
+        const nav = document.querySelector("nav");
+
+        navIcon.onclick = function () {
+            nav.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>

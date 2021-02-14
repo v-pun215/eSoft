@@ -75,5 +75,13 @@
 <p>
 <a style="font-size:20px" href="get.html">Download <i class="fa fa-chevron-right" aria-hidden="true"></i></i> </a>
 </div>
+    <script>
+        const navIcon = document.querySelector(".nav-icon");
+        const nav = document.querySelector("nav");
+
+        navIcon.onclick = function () {
+            nav.classList.toggle('show');
+        }
+    </script>
 </body>
 </html>

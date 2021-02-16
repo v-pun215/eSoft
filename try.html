@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="icon/ico" href="../../icon/favicon.ico"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pearOS - Versions</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="../../en_US/"><img src=../../images/logo.png class="logo"></a>
+            <ul>
+                <li><a href="../versions/">Versions</a></li>
+                <li><a href="../how-to-install/">How to install</a></li>
+                <li><a href="../error/">Laptops</a></li>
+                <li><a href="../services/">Other services</a></li>
+                <li><a href="../contact/">Contact</a></li>
+                <li><a href="../support/">Support</a></li>
+                <li><a href="../donate/">Donate</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h1>Versions</h1>
+            </div>
+             <div class="versions">
+                <a class="thiccSurImage" href="../error/"><img src="../../images/thiccsur.png" alt="PearOS ThiccSur screenshot"></a>
+                <a class="thiccSurText" href="../error/">ThiccSur</a>
+                
+                <a class="catalinaImage" href="../error/"><img src="../../images/catalina.png" alt="PearOS Catalina screenshot"></a>
+                <a class="catalinaText" href="../error/">Catalina</a>
+                
+                <a class="snowMojaveImage" href="https://drive.google.com/file/d/10e0fWBZZOu9LGpWyI4onnZnMR-bmpAuE/view?usp=drivesdk"><img src="../../images/snowMojave.png" alt="PearOS SnowMojave screenshot"></a>
+                <a class="snowMojaveText" href="https://drive.google.com/file/d/10e0fWBZZOu9LGpWyI4onnZnMR-bmpAuE/view?usp=drivesdk">SnowMojave</a>
+                
+                <a class="oldImage" href="../other-versions/"><img src="../../images/old.png" alt="Other PearOS Versions"></a>
+                <a class="oldText" href=../other-versions/>Other&nbsp;versions</a>
+            </div>
+        </div>
+        <div class="footer">
+            <hr>
+            <p class="copyright">Copyright © 2021. All rights reserved.</p>
+            <a class="privacy" href="../error/">Privacy Policy</a>
+            <a class="tos" href="../error/">ToS</a>
+            <a class="legal" href="../error/">Legal</a>
+            <a class="license" href="../error/">License</a>
+            <div class="language">
+                <img src="../../images/usa-flag.png" alt="USA Flag" class="flag" width="20px" height="20px">
+                <p class="current-language">English</p>
+                <div class="languages">
+                    <a class="english" href="#"><img src="../../images/usa-flag.png" width="20px" height="20px">English</a> 
+                    <a class="polish" href="../../po_PO"><img src="../../images/polish-flag.png" width="20px" height="20px">Polish</a>
+                    <a class="portuguese" href="../../pt_POR/"><img src="../../images/portuguese-flag.png" width="20px" height="20px">Portuguese</a>
+                    <a class="russian" href="../../ru_RU"><img src="../../images/russian-flag.png" width="20px" height="20px">Russian</a>
+                    <a class="french" href="../../fr_FR"><img src="../../images/french-flag.png" width="20px" height="20px">French</a>
+                    <a class="german" href="../../de_DE"><img src="../../images/german-flag.png" width="20px" height="20px">German</a>
+                    <a class="romanian" href="../../ro_RO"><img src="../../images/romania-flag.png" width="20px" height="20px">Romanian</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Montserrat;
+    }
+    
+    body{
+        background-color: #1a1a1c;
+    }
+
+    section{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0px 40px 0px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header ul{
+        position: relative;
+        display: flex;
+        margin-right: 0;
+    } 
+
+    header ul li{
+        list-style: none;
+    }
+
+    header a{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    header a:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    header ul li a{
+        display: inline-block;
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        margin-left: 40px;
+        text-decoration: none;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    header ul li a:hover{
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .content{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content .textBox{
+        position: relative;
+        max-width: 600px;
+    }
+
+    .content .textBox h1{
+        margin-top: 0px;
+        margin-bottom: 4em;
+        color: white;
+        font-size: 110px;
+    }
+
+    .content .versions .thiccSurImage{
+        position: absolute;        
+        left: 0;
+        top: 16em;
+    }
+
+    .content .versions .thiccSurText{
+        position: absolute;        
+        left: 4em;
+        top: 20em;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .content .versions .thiccSurText:hover{
+        text-decoration: underline;
+    }
+
+    .thiccSurImage {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .thiccSurImage:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .content .versions .catalinaImage{
+        position: absolute;        
+        left: 26em;
+        top: 16em;
+    }
+
+    .content .versions .catalinaText{
+        position: absolute;        
+        left: 19em;
+        top: 20em;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .content .versions .catalinaText:hover{
+        text-decoration: underline;
+    }
+
+    .catalinaImage {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .catalinaImage:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .content .versions .snowMojaveImage{
+        position: absolute;        
+        left: 52em;
+        top: 16em;
+    }
+
+    .content .versions .snowMojaveText{
+        position: absolute;        
+        left: 33em;
+        top: 20em;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .content .versions .snowMojaveText:hover{
+        text-decoration: underline;
+    }
+
+    .snowMojaveImage {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .snowMojaveImage:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .content .versions .oldImage{
+        position: absolute;        
+        left: 77.5em;
+        top: 16em;
+    }
+
+    .content .versions .oldText{
+        position: absolute;        
+        left: 47em;
+        top: 20em;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .content .versions .oldText:hover{
+        text-decoration: underline;
+    }
+
+    .oldImage {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .oldImage:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .footer {
+        position: fixed;
+        left: 0px;
+        bottom: 15px;
+        width: 100%;
+    }
+
+    hr{
+        width: 91%;
+        position: relative;
+        left: 6em;
+        bottom: 2em;
+        border: 1px solid #3b3b40;
+    }
+
+    .footer .copyright{
+        position: fixed;
+        left: 100px;
+        bottom: 15px;
+        font-size: 14px;
+        font-weight: 200;
+        color: white;
+    }
+
+    .footer .creator{
+        display: none;
+        position: relative;
+        bottom: 1.7em;
+        left: 7.1em;
+        width: 710px;
+        color: white;
+        font-size: 14px;
+    }
+
+    .footer .creator a{
+        color: white;
+    }
+
+    .footer .copyright:hover+.creator{
+        display: block;
+    }
+
+    .footer .privacy{
+        position: fixed;
+        left: 500px;
+        bottom: 15px;
+        font-size: 14px;
+        color: white;
+        font-weight: 200;
+    }
+
+    .footer .tos{
+        position: fixed;
+        left: 630px;
+        bottom: 15px;
+        font-size: 14px;
+        font-weight: 200;
+        color: white;
+    }
+
+    .footer .legal{
+        position: fixed;
+        left: 690px;
+        bottom: 15px;
+        font-size: 14px;
+        font-weight: 200;
+        color: white;
+    }
+
+    .footer .license{
+        position: fixed;
+        left: 760px;
+        bottom: 15px;
+        font-size: 14px;
+        font-weight: 200;
+        color: white;
+    }
+
+    .footer .flag{
+        position: fixed;
+        right: 155px;
+        bottom: 15px;
+        cursor: pointer;
+    }
+
+    .footer .current-language{
+        position: fixed;
+        right: 87px;
+        bottom: 17px;
+        font-size: 14px;
+        font-weight: 200;
+        color: white;
+        background-color: transparent;
+        border: 0;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .footer .languages{
+        display: none;
+        position: fixed;
+        bottom: 2.3em;
+        right: 4.2em;
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        width: 160px;
+        z-index: 2;
+    }
+
+    .footer .languages a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .footer .languages a img{
+        position: relative;
+        top: 3px;
+        right: 5px;
+    }
+
+    .footer .languages a:hover {
+        background-color: #414141
+    }
+
+    .footer .language:hover .languages{
+        display: block;
+    }
+</style>
+</html>

@@ -43,7 +43,42 @@
     </nav>
 <center>
 <h1 class="w">Introducing PearOS Cupertino</h1>
-<video style="max-width:100%;height:auto;" controls poster="https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.png">
+  border-radius: 6px;
+}
+
+/* The top of the keyboard */
+.laptop:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  bottom: -110px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  background: #f1f1f1;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+/* The screen (or content) of the device */
+.laptop .content {
+  width: 1366px;
+  height: 800px;
+  overflow: hidden;
+  border: none;
+}
+</style>
+</head>
+<body>
+
+<div class="laptop">
+  <div class="content">
+    <video style="max-width:100%;height:auto;" controls poster="https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.png">
       <source src="https://raw.githubusercontent.com/vihaanpundir/eSoft/main/PearOS%20Cupertino.mp4" type=video/mp4 >
-</video><p></p>
+    </video>
+  </div>
+</div>
 <a style="font-size:30px;" href="https://www.youtube.com/watch?v=dfN01rfpmgk&">Experiencing Video Issues?</a>

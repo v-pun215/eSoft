@@ -44,10 +44,11 @@
     
 <div style="border-radius: 25px; box-shadow: 6px 12px 4px 8px gray; width:400px; height:500px; background-color:white;">
     <h2>Contact</h2>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
         <input type="text" style="background-color:#555; color:white;" placeholder="Your Name..." name="name"><p>
         <input type="email" style="background-color:#555; color:white;" placeholder="Your Email..." name="email"><p>
         <textarea placeholder="Message..." style="background-color:#555; color:white;" name="message"></textarea><p>
+        <div data-netlify-recaptcha="true"></div><p>
         <button type="submit">Send</button>
     </form>
 </div>

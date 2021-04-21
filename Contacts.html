@@ -43,7 +43,12 @@
 <center>
     
 <div style="border-radius: 25px; box-shadow: 6px 12px 4px 8px gray; width:400px; height:500px; background-color:white;">
-     <p>Hi</p>
+    <h2>Contact</h2>
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="text" placeholder="Enter Your Name Here..." name="name">
+        <input type="email" plceholder="Your Email..." name="email">
+        <label>Message: <textarea name="message"></textarea></label>
+    </form>
 </div>
 <script>
         const navIcon = document.querySelector(".nav-icon");

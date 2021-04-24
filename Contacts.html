@@ -75,14 +75,11 @@ textarea {
     
 <div style="border-radius: 25px; box-shadow: 6px 12px 4px 8px gray; width:400px; height:500px; background-color:black; padding: 17px;">
     <h2 style="color:white;">Contact</h2>
-    <form name="contact" method="POST" action="/success.html" data-netlify="true" netlify-honeypot="bot-field">
-        <p class="hidden">
-        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-        </p>
-        <p>
+    <form name="contact" method="POST" action="/success.html" data-netlify="true" data-netlify-recaptcha="true">
         <input type="text" placeholder="Your Name..." name="name" required><p>
         <input type="email" placeholder="Your Email..." name="email" required><p>
         <textarea placeholder="Message..." name="message" required></textarea><p>
+        <input required><div data-netlify-recaptcha="true"></div></input>
         <button class="button" style="background-color:white; color:black;" type="submit">Send</button>
     </form>
 </div>

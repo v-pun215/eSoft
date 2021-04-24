@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>eSoft</title>
 </head>
-<body>
+<body onload="start()">
     <nav> 
         <div class="nav-content">
             <a href="" class="logo">
@@ -58,7 +58,9 @@
 <h2>Introducing eTunes</h2>
 <button onclick="showMask()"></button>
 <script>
-document.getElementById("mask123").style.display = "none";
+function start() {
+   document.getElementById("mask123").style.display = "none";
+}
 function showMask() {
    document.getElementById("element").style.display = "block";
 }

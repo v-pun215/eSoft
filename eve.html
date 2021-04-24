@@ -56,7 +56,20 @@
 <h1> Recent eSoft Events </h1>
 <p>
 <h2>Introducing eTunes</h2>
-
+<button onclick="showMask()"></button>
+<script>
+function showMask() {
+    var node = document.getElementById('mask123');
+    if (node.style.visibility=='visible') {
+        node.style.visibility = 'hidden';
+    }
+    else
+        node.style.visibility = 'visible'
+}
+</script>
+<div id="mask123">
+    <p>how are you!</p>
+</div>
 <a href="/events/eTunes/eTunes.html"><img src="https://www.pngitem.com/pimgs/b/160-1603770_music-symbols-png.png" width=300 height=300 /></a>
 <hr>
 <p>January 28, 2021</p>

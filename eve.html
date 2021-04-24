@@ -64,11 +64,15 @@ function start() {
 function showMask() {
    document.getElementById("mask123").style.display = "block";
 }
+function hideMask() {
+   document.getElementById("mask123").style.display = "none";
+   
 </script>
 <div style="background-color:black; padding:17px; width:70%; border-radius:20px" id="mask123">
  <video style="max-width:100%;height:auto;" controls poster="https://www.freepnglogos.com/uploads/music-logo-black-and-white-png-21.png">
       <source src="https://raw.githubusercontent.com/vihaanpundir/eSoft/main/Event%20(eTunes).mp4" type=video/mp4 >
 </video>
+<button class="but" onclick="hideMask()">Hide Event</button>
 </div>
 <hr>
 <p>January 28, 2021</p>

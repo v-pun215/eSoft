@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>eSoft</title>
 </head>
-<body>
+<body onload="start()">
     <nav> 
         <div class="nav-content">
             <a href="" class="logo">
@@ -40,7 +40,19 @@
         </div>
     </nav>
 <center>
-
+<script>
+function start() {
+   document.getElementById("game").style.display = "none";
+}
+function show() {
+   document.getElementById("bshow").style.display = "none";
+   document.getElementById("game").style.display = "block";
+}
+function hide() {
+   document.getElementById("game").style.display = "none";
+   document.getElementById("bshow").style.display = "block";
+}
+</script>
 <div style="background-color:white; padding:17px;">
 <p>
 <h1>Products</h1>
@@ -48,7 +60,11 @@
 </div>
 <div>
 <h2>Games</h2>
-<button class="button"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+<button id="bshow" class="button"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+<p>
+<div id="game">
+    <p>cool game</p>
+</div>
 </div>
 <p>
     <script>

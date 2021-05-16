@@ -50,7 +50,7 @@
     fetch('https://extreme-ip-lookup.com/json/')
     .then( res => res.json())
     .then(response => {
-       document.getElementByName("c").innerHTML="You are in", response.country;
+       document.getElementById("c").innerHTML="You are in", response.country;
        console.log("Country: ", response.country);
     })
     .catch((data, status) => {

@@ -46,8 +46,20 @@
 <span style="font-size:72px; font-family:arial;" class="mls">News</span>
     <p>
     <center>
-    <a href="top/"><div style="margin-left: -17px;background-color:ghostwhite;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Top Stories</div></a><p>
-    <a href="recent/"><div style="margin-left: -17px;background-color:lightskyblue;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Recent Stories</div></a><p>
+        <h2 id="c"></h2>
+    <script>
+    fetch('https://extreme-ip-lookup.com/json/')
+    .then( res => res.json())
+    .then(response => {
+       document.getElementById("c").innerHTML=response.country;
+       console.log("Country: ", response.country);
+    })
+    .catch((data, status) => {
+       console.log('Request failed');
+    })
+    </script>
+    <a style="color:black;" href="top/"><div style="margin-left: -17px;background-color:ghostwhite;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Top Stories</div></a><p>
+    <a style="color:black;" href="recent/"><div style="margin-left: -17px;background-color:lightskyblue;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Recent Stories</div></a><p>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-4dc8e853-9468-4e87-8b08-84fd561be5ed"></div>
     </center>

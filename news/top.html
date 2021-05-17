@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://tes0.netlify.app/style.css">
+    <link rel="stylesheet" href="https://earthsoft.netlify.app/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>eSoft</title>
+</head>
+<body>
+    <nav> 
+        <div class="nav-content">
+            <a href="" class="logo">
+                <svg width="18" height="44" display="block">
+                    <circle cx="9" cy="22" r="8" stroke="white" stroke-width="1.5" fill="forestgreen" />
+                </svg>
+            </a>
+            
+            <div class="nav-icon">
+                <div class="bar one"></div>
+                <div class="bar two"></div>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">eSoft</a>
+                <a href="ai.html">AI</a>
+                <a href="apps.html">Apps</a>
+                <a href="goal.html">Products</a>
+                <a href="eve.html">Events</a>
+                <a href="support.html">Support</a>
+            </div>
+
+            <svg class="search-icon" viewBox="0 0 3.7041668 11.641667" height="44" width="14">
+                <g transform="matrix(0.97865947,0,0,0.97865947,-18.209185,-74.390797)">
+                    <path d="m 19.070369,80.532362 c -0.618144,0.618143 -0.619255,1.62581 -7.32e-4,2.244333 0.570867,0.570865 1.473777,0.613735 2.095614,0.131181 l 0.945308,0.945309 0.280633,-0.280633 -0.945308,-0.945309 c 0.482552,-0.621838 0.439684,-1.524746 -0.131182,-2.095613 -0.618523,-0.618523 -1.62619,-0.617413 -2.244333,7.32e-4 z m 0.280632,0.280632 c 0.466517,-0.466515 1.216631,-0.467898 1.683433,-0.0011 0.466802,0.466801 0.466882,1.218378 3.64e-4,1.684894 -0.466512,0.466513 -1.21809,0.466436 -1.684892,-3.67e-4 -0.466803,-0.466801 -0.465418,-1.216918 0.0011,-1.683432 z" fill="white" />
+                </g>
+            </svg>
+        </div>
+    </nav>
+
+<div id=menu style="width:40%;height:631px;position:relative;background-color:white;float:left;border-right: 2px solid black; padding:17px;">
+<span style="width:300px; height:300px;" class="icon-E95-9D98-4FB8-A7BC-EE726F8D24C7"></span>
+<span style="font-size:72px; font-family:arial;" class="mls">News</span>
+    <p>
+    <center>
+    <h2 id=c></h2>
+    </center>
+    <div style="margin-left: -17px;background-color:lightskyblue;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Top Stories</div><p>
+    <div style="margin-left: -17px;background-color:ghostwhite;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Recent Stories</div><p>
+    <script>
+    fetch('https://extreme-ip-lookup.com/json/')
+    .then( res => res.json())
+    .then(response => {
+       document.getElementById("c").innerHTML=response.country;
+       console.log("Country: ", response.country);
+    })
+    .catch((data, status) => {
+       console.log('Request failed');
+    })
+    </script>
+    <a style="color:black;" href="https://news.google.com/"><p style="position:absolute;bottom:0;">In Collaboration with <img src="https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=w300-rw" width=20px height=20px/></p></a>
+</div>
+
+<div id=rss style="float:left;">
+<!-- start sw-rss-feed code --> 
+<script type="text/javascript"> 
+<!-- 
+rssfeed_url = new Array(); 
+rssfeed_url[0]="https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en";  
+rssfeed_frame_width="610"; 
+rssfeed_frame_height="660"; 
+rssfeed_scroll="off"; 
+rssfeed_scroll_step="6"; 
+rssfeed_scroll_bar="on"; 
+rssfeed_target="_blank"; 
+rssfeed_font_size="12"; 
+rssfeed_font_face=""; 
+rssfeed_border="off"; 
+rssfeed_css_url="https://earthsoft.netlify.app/rss.css"; 
+rssfeed_title="on"; 
+rssfeed_title_name="Indian News - Top Stories"; 
+rssfeed_title_bgcolor="#3366ff"; 
+rssfeed_title_color="#fff"; 
+rssfeed_title_bgimage=""; 
+rssfeed_footer="off"; 
+rssfeed_footer_name=""; 
+rssfeed_footer_bgcolor="#fff"; 
+rssfeed_footer_color="#333"; 
+rssfeed_footer_bgimage=""; 
+rssfeed_item_title_length="50"; 
+rssfeed_item_title_color="#666"; 
+rssfeed_item_bgcolor="#fff"; 
+rssfeed_item_bgimage=""; 
+rssfeed_item_border_bottom="on"; 
+rssfeed_item_source_icon="off"; 
+rssfeed_item_date="on"; 
+rssfeed_item_description="on"; 
+rssfeed_item_description_length="120"; 
+rssfeed_item_description_color="#666"; 
+rssfeed_item_description_link_color="#333"; 
+rssfeed_item_description_tag="off"; 
+rssfeed_no_items="0"; 
+rssfeed_cache = "ea71a4b10e50110e5d84dc7e82f0783a"; 
+//--> 
+</script> 
+<script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script> 
+<!-- end sw-rss-feed code -->
+</div>

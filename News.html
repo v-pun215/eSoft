@@ -46,15 +46,14 @@
 <span style="font-size:72px; font-family:arial;" class="mls">News</span>
     <p>
     <center>
-    <h2>You Are In</h2><h2 id=c></h2>
-    <img id="x" src="image1.png">
+    <h2 id=c></h2>
+    </center>
+    <div style="margin-left: -17px;background-color:lightskyblue;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Top Stories</div><p>
+    <div style="margin-left: -17px;background-color:lightskyblue;text-align:center;padding:17px;border-radius:0 10px 10px 0;">Recent Stories</div><p>
     <script>
     fetch('https://extreme-ip-lookup.com/json/')
     .then( res => res.json())
     .then(response => {
-       if (response.country == "India") {
-           document.getElementById("x").src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png";
-       }
        document.getElementById("c").innerHTML=response.country;
        console.log("Country: ", response.country);
     })

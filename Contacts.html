@@ -76,9 +76,9 @@ textarea {
 <div style="border-radius: 25px; box-shadow: 0 0 10px #000; width:400px; height:560px; background-color:white; padding: 17px;">
     <h1 style="color:black;">Contact</h2>
     <form name="contact" method="POST" action="/success.html" data-netlify="true" data-netlify-recaptcha="true">
-        Name: <input type="text" name="name" required><p>
-        Email: <input type="email" name="email" required><p>
-        Message: <textarea placeholder="" name="message" required></textarea><p>
+        <p>Name: </p><input type="text" name="name" required><p>
+        <p>Email: </p><input type="email" name="email" required><p>
+        <p>Message: </p><textarea placeholder="" name="message" required></textarea><p>
         <div data-netlify-recaptcha="true"></div>
         <button class="button" style="background-color:black; color:white; box-shadow: 0 0 10px #000;" type="submit">Send</button>
     </form>

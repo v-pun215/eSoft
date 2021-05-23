@@ -48,7 +48,7 @@ input[type=text] {
   padding: 20px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: none;
+  border: solid;
   color: black;
 }
 
@@ -58,7 +58,7 @@ input[type=email] {
   padding: 20px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: none;
+  border: solid;
   color: black;
 }
     
@@ -68,7 +68,7 @@ textarea {
   padding: 20px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: none;
+  border: solid;
   color: black;
 }
 </style>
@@ -76,11 +76,11 @@ textarea {
 <div style="border-radius: 25px; box-shadow: 0 0 10px #000; width:400px; height:560px; background-color:white; padding: 17px;">
     <h1 style="color:black;">Contact</h2>
     <form name="contact" method="POST" action="/success.html" data-netlify="true" data-netlify-recaptcha="true">
-        <input type="text" placeholder="Your Name..." name="name" required><p>
-        <input type="email" placeholder="Your Email..." name="email" required><p>
-        <textarea placeholder="Message..." name="message" required></textarea><p>
+        Name: <input type="text" name="name" required><p>
+        Email: <input type="email" name="email" required><p>
+        Message: <textarea placeholder="" name="message" required></textarea><p>
         <div data-netlify-recaptcha="true"></div>
-        <button class="button" style="background-color:white; color:black;" type="submit">Send</button>
+        <button class="button" style="background-color:black; color:white; box-shadow: 0 0 10px #000;" type="submit">Send</button>
     </form>
 </div>
 <script>

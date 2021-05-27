@@ -91,6 +91,8 @@ nav {
     margin: 0;
     overflow: hidden;
     background: #333333;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }   
 
 .nav-content {

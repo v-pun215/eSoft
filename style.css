@@ -81,6 +81,28 @@ body{
     margin: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
+  .button {
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+  background-color: #eee; /* Green */
+  border: none;
+  color: #121212;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+}
 nav {
     position: sticky;
     position: -webkit-sticky;

@@ -20,8 +20,13 @@
     <title>eSoft</title>
 </head>
 <center>
-    <div style="padding:5px; background-color:#0066ff; color:white;">
-        <p id="close" style="float:right;"><i class="fa fa-times" aria-hidden="true"></i></p>
+    <script>
+            function cl() {
+                document.getElementById("note").style.display = "none";
+            }
+        </script>
+    <div id="note" style="padding:5px; background-color:#0066ff; color:white;">
+        <p onclick="cl()" style="float:right;"><i class="fa fa-times" aria-hidden="true"></i></p>
         <p>Most Of Our Apps Are Built Using <a style="font-size:16px; color:white;" href="https://www.python.org/">Python</a></p>
     </div>
 </center>

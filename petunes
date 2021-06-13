@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download pearOS Monterey BETA</title>
+
+<link rel="stylesheet" href="https://monterey.pearos.xyz/scss/index.css">
+<script async src="https://arc.io/widget.min.js#ykwr9SBW"></script>
+
+</head>
+<body oncontextmenu="return false">
+<span id="m">Looks like you are trying to access this download page from a mobile client. Please use the desktop version of the website or access website on computer</span>
+<div class="content" id="d">
+<center>
+<img src="https://monterey.pearos.xyz/img/logo.png" alt="PearOS Logo" height="80">
+<div class="start" id="start">
+<h1 style="font-size: 3.30rem;">Wantto turn beta?</h1>
+<button class="dwn" onclick="down()" id="countdown">Download Monterey</span></button>
+<a class="info" onclick="info()"><img src="ihttps://monterey.pearos.xyz/mg/arrow.svg" alt=""></a><br><br>
+<div class="hash" id="hash">
+<span style="padding-left: 15px;">Filename: pearOS_Monterey_64bit-12-beta.iso</span><br>
+<span style="padding-left: 15px;">Size: 2.41 GB</span><br>
+<span style="padding-left: 15px;">MD5: 2ac305da34b58fe66ceba81c34483112</span><br>
+<a onclick="rmv()" style="padding-left: 15px; text-decoration: underline; cursor: pointer;">close</a>
+</div>
+<a href="" class="sys" onclick="sys()">System requirments</a><br>
+<img src="https://monterey.pearos.xyz/img/laptop-mont.png" alt="Laptop with Monterey on it." class="laptop_img">
+</div>
+</center>
+</div>
+<script src="https://monterey.pearos.xyz/js/index.js"></script>
+
+</body>
+</html>

@@ -2,6 +2,11 @@ html {
     background: #fafafa;
     font-family:  Roboto, sans-serif;
 }
+@media (max-width:767px) {
+    .footer {
+        height:300px;
+    }
+}
 .btn {
   border-radius: 5px;
   padding: 15px 55px;

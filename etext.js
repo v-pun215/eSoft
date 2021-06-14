@@ -4,7 +4,7 @@ function info(){var element=document.getElementById("hash")
 element.classList.add("hash_show")}
 function rmv(){var element1=document.getElementById("hash")
 element1.classList.remove("hash_show")}
-function down(){document.getElementById("countdown").setAttribute('disabled','disabled');var timeleft=20;var downloadTimer=setInterval(function(){if(timeleft<=0){clearInterval(downloadTimer);document.getElementById("countdown").innerHTML="Download Started";window.location.href="etext.zip"
+function down(){document.getElementById("countdown").setAttribute('disabled','disabled');var timeleft=20;var downloadTimer=setInterval(function(){if(timeleft<=0){clearInterval(downloadTimer);document.getElementById("countdown").innerHTML="Download Started";window.location.href="https://drive.google.com/u/0/uc?export=download&confirm=SjFt&id=1BigrcZx2BQNN0ezUTl2Z9nYRKirBCXW9"
 document.getElementById("countdown").removeAttribute('disabled','disabled');}else{document.getElementById("countdown").innerHTML=timeleft+"s remaining";}
 timeleft-=1;},1000);}
 document.addEventListener('contextmenu',function(e){e.preventDefault();});document.onkeydown=function(e){if(event.keyCode==123){return false;}
